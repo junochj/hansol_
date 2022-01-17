@@ -1,0 +1,94 @@
+﻿/*나눔바른 고딕*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+/*로보토*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+@charset "utf-8";
+
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dd,dt,dl,button,hr,dr,form,input,select,iframe,figure,figcaption{margin:0px;padding:0px;list-style:none;font-family:Roboto;font-family: Nanum Barun Gothic;}
+
+img{border:0;}
+a{text-decoration:none;}
+
+
+/*메인 비주얼 영역*/
+
+.visual{height:1157px;}
+.visual_img{height:1157px;}
+.visual_img{}
+.visual_img li{float:left;}
+
+.v1{width:100%;height:1157px;background:url(images/hansol_visual1.jpg) no-repeat;}
+.v2{width:100%;height:1157px;background:url(images/hansol_visual2.jpg) no-repeat;}
+.v3{width:100%;height:1157px;background:url(images/hansol_visual3.jpg) no-repeat;}
+.v4{width:100%;height:1157px;background:url(images/hansol_visual4.jpg) no-repeat;}
+
+.btn_button1{position:absolute;background:rgba(255,255,255,0.5);left:19%; margin:-572px 0 0 0;}
+.btn_button1>li{background:rgba(255,255,255,0.5);float:left;margin: 7px;width:18px;height:18px;}
+.btn_button1 li:last-child{background:rgba(33,147,69,0.3);}
+.btn_button1>li>button{background:rgba(255,255,255,0.5);border:0}
+.btn_button1>li:hover{background:#126fb5;}
+.btn_button1>li:last-child:hover{background:#219345;}
+
+.btn_button2{position:absolute;right:19%; margin:-792px 0 0 0;width:368px;}
+.btn_button2>li:nth-child(1){float:right;}
+.btn_button2>li:nth-child(2){float:left;}
+.btn_button2>li:nth-child(3){float:right;}
+
+.btn_button2>li>p>a{line-height:184px;color:#fff;}
+.btn_button2>li>p{text-align:center;}
+
+.btn_button2>li:nth-child(1)>p{border:7px solid #fff;width:184px;height:184px;background:none;margin-left:50px;color:#fff;font-size:24px;box-sizing:border-box;}
+.btn_button2>li:nth-child(1)>p:hover{border:7px solid #00adcb;box-sizing:border-box;}
+.btn_button2>li:nth-child(2)>p{width:184px;height:184px;border:0px;color:#fff;font-size:24px;background:url(images/solution.jpg) no-repeat center 21px #219345;}
+.btn_button2>li:nth-child(3)>p{background:url(images/rd.jpg)no-repeat center 21px #126fb5;width:184px;height:184px;border:0px;color:#fff;font-size:24px;}
+
+.visual_txt p{color:#fff;}
+.visual_txt p:nth-child(1){font-size:70px;margin-top:399px;margin-left:349px;}
+.visual_txt p:nth-child(2){font-size:60px;margin-left:358px;}
+
+/*메인 헤더 영역*/
+
+.header_wrap{position:absolute;left:0; top:0; width:100%;height:168px;}
+.header_inner{width:1200px;margin:0 auto;height:168px;}
+.header_inner>h1{float:left;margin-top:64px;}
+.gnb{float:right;margin-top:64px;}
+.gnb li{float: left;}
+.gnb li>h2>a{font-size:24px;color:#fff;}
+.gnb li>h2{width:124px;text-align:right;}
+.gnb li>ul{float: right;width: 60px; height: 16px; margin-top: 10px;}
+.gnb>li>ul>li{ float:right; padding-top: 10px; font-size: 16px; text-align: right;}
+.gnb>li>ul>li>a{color:#fff;}
+.gnb a:hover{color: #126fb5;}
+
+
+/*컨텐츠 영역*/
+
+.container{width:1200px;position:absolute;left:360px;top:734px;}
+
+.newest{width:736px;height:368px;}
+.notice1{width:368px;height:184px;float:left;margin-right:20px;background:url(images/notice.jpg)no-repeat 274px 78px #219345;}
+.notice2{width:368px;height:184px;float:left;background:url(images/recurit.jpg)no-repeat 274px 78px #00adcb;}
+.notice3{width:368px;height:184px;float:right;background:url(images/love.jpg)no-repeat 274px 78px #126fb5;}
+
+.notice1>h2,.notice2>h2,.notice3>h2{padding:20px 0 9px 25px;font-size:24px;color:#fff;float:left;}
+.notice1>p:nth-of-type(1),.notice2>p:nth-of-type(1),.notice3>p:nth-of-type(1){float:right;padding:20px 25px 0 0; font-size:24px;}
+.notice1>p:nth-of-type(1)>a,.notice2>p:nth-of-type(1)>a,.notice3>p:nth-of-type(1)>a{color:#fff;}
+.notice1>p:nth-of-type(2),.notice2>p:nth-of-type(2),.notice3>p:nth-of-type(2){float:left;clear:both;padding:0 0 0 25px; font-size:16px; color:#fff;}
+
+/*푸터 영역*/
+
+footer{width:100%;height:185px;border-top:1px solid #343434;clear:both;}
+.footer_inner{width:1200px; margin:0 auto;}
+.footer_menu>ul>li{font-size:12px;margin-right:10px;padding-right:10px;float:left;border-right:1px solid #434343;margin-top:64px;margin-bottom:12px;}
+.footer_menu>ul>li:last-child{border-right:0px}
+
+.footer_inner>form{float:right;margin-top:64px;}
+
+
+.footer_txt{float:left;clear:both;}
+.footer_txt>p{font-size:12px;margin-bottom:12px;}
+

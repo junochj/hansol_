@@ -1,0 +1,138 @@
+﻿/*나눔바른 고딕*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+/*로보토*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+@charset "utf-8";
+
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dd,dt,dl,button,hr,dr,form,input,select{margin:0px;padding:0px;list-style:none;font-family:Roboto;font-family: Nanum Barun Gothic;}
+
+img{border:0;}
+a{text-decoration:none;}
+
+
+/*서브 비주얼 영역*/
+
+.visual_sub2{height:550px;}
+.visual_img_sub2{height:550px;}
+
+.v1_sub2{width:100%;height:550px;background:url(images/sub2_visual.jpg)no-repeat;}
+.visual_txt_sub2{font-size:50px;color:#fff;width:1200px;margin:0 auto; text-align:left;padding-top:470px;}
+
+
+.visual_sub4{height:550px;}
+.visual_img_sub4{height:550px;}
+
+.v1_sub4{width:100%;height:550px;background:url(images/sub3_visual.jpg) no-repeat;}
+.visual_txt_sub4{font-size:50px;color:#fff;width:1200px;margin:0 auto; text-align:left;padding-top:470px;}
+
+.visual_sub5{height:550px;}
+.visual_img_sub5{height:550px;}
+
+.v1_sub5{width:100%;height:550px;background:url(images/sub4_visual.jpg) no-repeat;}
+.visual_txt_sub5{font-size:50px;color:#fff;width:1200px;margin:0 auto; text-align:left;padding-top:470px;}
+
+
+/*sub2_1*/
+
+.container_sub2{width:1200px; margin:0 auto;}
+.container_gnb2 li{width:600px;height:75px;border-bottom:1px solid #434343; box-sizing:border-box;float:left;text-align:center;line-height:75px;margin-bottom:40px;font-size:16px;}
+.container_gnb2 li:nth-child(1){border-right:1px solid #434343;}
+.container_gnb2 li:hover{border-bottom:5px solid #126fb5;}
+.container_gnb2 li a{color:#434343;}
+.container_gnb2 li a:hover{color:#126fb5;}
+
+.container_sub2>div:nth-child(2)>h2{font-size:24px;color:#343434;margin-bottom:30px;}
+.first,.second,.third{float:left;width:1200px;margin-bottom:40px;}
+.first>ol,.second>ol,.third>ol{float:left;}
+.first>p,.second>p,.third>p{float:right;}
+
+.first>ol>li:nth-child(1),.second>ol>li:nth-child(1),.third>ol>li:nth-child(1){font-size:30px;color:#126fb5;}
+.first>ol>li,.second>ol>li,.third>ol>li{border-bottom:1px solid #434343;font-size:24px;line-height:35px;width:685px;color:#343434;}
+.first>ol>li>span,.secod>ol>li>span,.third>ol>li>span{margin:0 10px;}
+
+
+/*sub2_2*/
+
+.first2,.second2,.third2{float:left;width:1200px;margin-bottom:40px;}
+.first2{background:url(images/sub2_11.jpg) no-repeat 830px 47px;}
+.second2{background:url(images/sub2_12.jpg) no-repeat 830px 47px;}
+.third2{background:url(images/sub2_13.jpg) no-repeat 830px 47px;}
+.first2>h3,.second2>h3,.third2>h3{margin-bottom:27px;font-size:24px;}
+.first2>p,.second2>p,.third2>p{line-height:25px;}
+.first2>h3{color:#00adcb;}
+.second2>h3{color:#126fb5;}
+.third2>h3{color:#219345;}
+
+/*sub3_1*/
+
+.first3,.first4{float:left;width:1200px;margin-bottom:40px;}
+.first3{background:url(images/sub3_1.jpg) no-repeat right 48px;}
+.first3>h3{margin-bottom:27px;font-size:24px;color:#126fb5;}
+.first3>p:nth-of-type(1){font-size:20px;color:#126fb5;margin-bottom:27px;}
+.first3>p:nth-of-type(2),.first4>p:nth-of-type(2){margin-bottom:27px;}
+.first3>p,.first4>p{font-size:18px;color:#434343;line-height:25px;}
+
+
+/*sub3_2*/
+
+.first4{background:url(images/sub3_2.jpg) no-repeat right 48px;}
+.first4>h3{margin-bottom:27px;font-size:24px;color:#219345;}
+.first4>p:nth-of-type(1){font-size:20px;color:#219345;margin-bottom:27px;}
+
+
+/*sub4_1*/
+
+.first5{width:1200px;margin-bottom:40px;height:880px;background:url(images/sub4_11.jpg) no-repeat center 248px;}
+.first5>h2,.second5>h2{font-size:24px;color:#434343;}
+.first5>p,.second5>p{text-align:center;font-size:25px;color:#126fb5;}
+
+.second5{width:1200px;margin-bottom:40px;height:950px;background:url(images/sub4_12.jpg) no-repeat center 100px;}
+
+.thumb_img{width:948px;height:185px;margin:0 auto;margin-top:410px;}
+.thumb_img>li{float:left;margin:0 26px;text-align:center;line-height:184px;margin-bottom:40px;}
+.thumb_img>li>a{font-size:21px;color:#fff;}
+.thumb_img>li>a:hover{color:#aaaaaa;}
+.thumb_img>li:nth-child(1){width:184px;height:184px;border-radius:50%;background:url(images/sub4_14.jpg) no-repeat center 31px #126fb5;}
+.thumb_img>li:nth-child(2){width:184px;height:184px;border-radius:50%;background:url(images/sub4_16.jpg) no-repeat center 31px #219345;}
+.thumb_img>li:nth-child(3){width:184px;height:184px;border-radius:50%;background:url(images/sub4_15.jpg) no-repeat center 31px #09a9a3;}
+.thumb_img>li:nth-child(4){width:184px;height:184px;border-radius:50%;background:url(images/sub4_17.jpg) no-repeat center 31px #1248b5;}
+
+.tab_list{clear:both;width:910px;height:259px;margin:0 auto;margin-bottom:40px;}
+.tab_list>iframe{border:0;width:910px;height:259px;}
+.tab_menu>div{float:left;font-size:16px;color:#434343;}
+figcaption{float:right;}
+figcaption>p{line-height:25px;color:#434343;}
+figcaption>p:nth-child(2){margin-bottom:28px;}
+figcaption>p:nth-child(1),figcaption>p:nth-child(3){font-size:24px;}
+figcaption>p:nth-child(2),figcaption>p:nth-child(4){font-size:18px;}
+
+
+
+/*sub4_2,sub5_1,2*/
+
+
+
+.sub_table>h2{font-size:24px;color:#434343;margin-bottom:30px;}
+.sub_table{width:1200px;margin:0 auto 40px auto; color:#434343;font-size:16px;}
+.sub_table>table{border-collapse: collapse;text-align:center;}
+.sub_table>table>thead{background:#126fb5;color:#fff;}
+
+.sub_table>table>thead>tr>th:nth-child(1){border-left:1px solid #126fb5;}
+.sub_table>table>thead>tr>th:nth-child(2){border-left:1px solid #fff;}
+.sub_table>table>thead>tr>th:nth-child(3){border-left:1px solid #fff;border-right:1px solid #126fb5;}
+
+
+.sub_table>table>thead>tr>th,.sub_table>table>tbody>tr>td{height:50px;}
+.sub_table>table>thead>tr>th:nth-child(1){width:100px;}
+.sub_table>table>thead>tr>th:nth-child(2){width:870px;}
+.sub_table>table>thead>tr>th:nth-child(3){width:230px;}
+
+.sub_table>table>tbody{box-sizing:border-box;}
+.sub_table>table>tbody>tr>td{border-bottom:1px solid #126fb5;border-left:1px solid #126fb5;}
+.sub_table>table>tbody>tr>td:last-child{border-right:1px solid #126fb5;}
+
+.sub_table>table>tbody>tr>td:nth-child(2){text-align:left;padding-left:30px;}
